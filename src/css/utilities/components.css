@@ -81,21 +81,21 @@
   color: var(--color-0);
 }
 
-.titulo-bg {
+.title-bg {
   background: var(--color-11);
   padding: 60px 0;
 }
 
-.titulo p {
+.title p {
   margin-bottom: 4px;
 }
 
 @media (max-width: 800px) {
-  .titulo-bg {
+  .title-bg {
     padding: 40px 0;
   }
 
-  .titulo p {
+  .title p {
     font-size: 1.6rem;
     text-transform: lowercase;
     font-weight: 400;

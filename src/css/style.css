@@ -19,6 +19,10 @@
 @import "./bikes/bikes-list.css";
 @import "./bikes/bikes.css";
 
+/* Bike */
+@import "./bike/bike.css";
+@import "./bike/safe.css";
+
 /* Insurance */
 @import "./insurance/insurance.css";
 @import "./insurance/benefits.css";
@@ -26,3 +30,4 @@
 
 /* Terms */
 @import "./terms/terms.css";
+
