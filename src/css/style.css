@@ -8,6 +8,7 @@
 
 /* Utilities */
 @import "./utilities/components.css";
+@import "./utilities/form.css";
 
 /*Home*/
 @import "./home/introduction.css";
@@ -28,6 +29,11 @@
 @import "./insurance/benefits.css";
 @import "./insurance/questions.css";
 
+/* Contact */
+@import "./contact/contact.css";
+@import "./contact/store.css";
+
 /* Terms */
 @import "./terms/terms.css";
 
+/*  */

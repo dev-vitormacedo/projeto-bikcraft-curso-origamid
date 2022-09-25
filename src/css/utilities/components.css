@@ -21,6 +21,7 @@
   font: 600 1.8rem/1.35 'Poppins', sans-serif;
   text-transform: uppercase;
   max-width: max-content;
+  border: none;
 }
 
 .button:hover{
