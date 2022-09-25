@@ -22,6 +22,7 @@
   text-transform: uppercase;
   max-width: max-content;
   border: none;
+  cursor: pointer;
 }
 
 .button:hover{
