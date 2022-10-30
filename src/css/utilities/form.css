@@ -4,15 +4,15 @@
   gap: 20px;
 }
 
-.form label {
+.form label{
   display: block;
-  font: 600 1.6rem/1.5 "Poppins", sans-serif;
+  font: 400 1.6rem/1.5 "Poppins", sans-serif;
   margin-bottom: 4px;
 }
 
 .form input[type="text"],
 .form input[type="email"],
-.form textarea {
+.form textarea, .form select, .acept-terms input {
   font: 400 1.6rem/1.5 "Roboto", sans-serif;
   background: var(--color-1);
   border: 1px solid var(--color-2);
@@ -24,7 +24,7 @@
 
 .form input[type="text"]:focus,
 .form input[type="email"]:focus,
-.form textarea:focus {
+.form textarea:focus, .form select:focus{
   outline: none;
   border-color: var(--color-p1);
   background: var(--color-0);
@@ -32,6 +32,24 @@
 }
 .form .col-2 {
   grid-column: span 2;
+}
+
+.acept-terms {
+  grid-row: 9;
+  grid-column: -1 / 1;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto 1fr;
+}
+
+.acept-terms input {
+  width: 18px;
+  height: 18px;
+}
+
+.acept-terms label > a {
+  text-decoration: underline;
+
 }
 
 @media (max-width: 600px) {
